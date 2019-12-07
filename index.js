@@ -5,14 +5,14 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         let buttonInnerHtml = this.innerHTML;
         makeSound(buttonInnerHtml);
+        buttonAnimation(buttonInnerHtml);
     });
-
-
 };
 
 // sound for keys
 document.addEventListener("keypress", function () {
-    makeSound(event.key)
+    makeSound(event.key);
+    buttonAnimation(event.key);
 })
 
 // function for to call sound
@@ -51,14 +51,11 @@ function makeSound(key) {
     }
 }
 
-
-
-
-// document.querySelectorAll(".a")[0].addEventListener("click", audio2);
-// function audio2() {
-//     let audio2 = new Audio("sounds/kick-bass.mp3");
-//     audio2.play();
-// }       
-
-
-
+// animation
+function buttonAnimation(currentKey) {
+    let activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout(function () {
+        activeButton.classList.remove("pressed");
+    }, 100);
+}

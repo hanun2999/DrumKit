@@ -60,6 +60,21 @@ body .set .l {
   background-image: url("images/kick.png");
 }
 
+body .set .game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+body .set .pressed {
+  -webkit-box-shadow: 0 3px 4px 0 #DBEDF3;
+          box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+body .set .red {
+  color: red;
+}
+
 body footer {
   color: #DBEDF3;
   font-family: sans-serif;
