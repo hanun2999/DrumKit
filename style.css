@@ -5,9 +5,9 @@ body {
 
 body h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #da0463;
 }
 
 body .set {
@@ -16,13 +16,13 @@ body .set {
 
 body .set .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #404b69;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
+  font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
   color: #5ada04;
-  text-shadow: 3px 0 #DBEDF3;
+  text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -66,8 +66,8 @@ body .set .game-over {
 }
 
 body .set .pressed {
-  -webkit-box-shadow: 0 3px 4px 0 #DBEDF3;
-          box-shadow: 0 3px 4px 0 #DBEDF3;
+  -webkit-box-shadow: 0 3px 4px 0 #dbedf3;
+  box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
 }
 
@@ -76,7 +76,7 @@ body .set .red {
 }
 
 body footer {
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

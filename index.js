@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 // sounds for buttons on the screen
 for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
@@ -13,7 +13,7 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
 document.addEventListener("keypress", function () {
     makeSound(event.key);
     buttonAnimation(event.key);
-})
+});
 
 // function for to call sound
 function makeSound(key) {
@@ -48,8 +48,8 @@ function makeSound(key) {
             break;
         default: console.log("Nothing")
             break;
-    }
-}
+    };
+};
 
 // animation
 function buttonAnimation(currentKey) {
@@ -58,4 +58,4 @@ function buttonAnimation(currentKey) {
     setTimeout(function () {
         activeButton.classList.remove("pressed");
     }, 100);
-}
+};
