@@ -2,12 +2,14 @@
 
 // sounds for buttons on the screen
 for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-        let buttonInnerHtml = this.innerHTML;
-        makeSound(buttonInnerHtml);
-        buttonAnimation(buttonInnerHtml);
-    });
-};
+    document
+        .querySelectorAll(".drum")
+        [i].addEventListener("click", function () {
+            let buttonInnerHtml = this.innerHTML;
+            makeSound(buttonInnerHtml);
+            buttonAnimation(buttonInnerHtml);
+        });
+}
 
 // sound for keys
 document.addEventListener("keypress", function () {
@@ -46,10 +48,11 @@ function makeSound(key) {
             let audio7 = new Audio("sounds/kick-bass.mp3");
             audio7.play();
             break;
-        default: console.log("Nothing")
+        default:
+            console.log("Nothing");
             break;
-    };
-};
+    }
+}
 
 // animation
 function buttonAnimation(currentKey) {
@@ -58,4 +61,4 @@ function buttonAnimation(currentKey) {
     setTimeout(function () {
         activeButton.classList.remove("pressed");
     }, 100);
-};
+}
