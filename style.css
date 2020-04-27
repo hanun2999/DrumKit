@@ -1,82 +1,82 @@
 body {
-  text-align: center;
-  background-color: #283149;
+    text-align: center;
+    background-color: #283149;
 }
 
 body h1 {
-  font-size: 5rem;
-  color: #dbedf3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #da0463;
+    font-size: 5rem;
+    color: #dbedf3;
+    font-family: 'Arvo', cursive;
+    text-shadow: 3px 0 #da0463;
 }
 
 body .set {
-  margin: 10% auto;
+    margin: 10% auto;
 }
 
 body .set .drum {
-  outline: none;
-  border: 10px solid #404b69;
-  font-size: 5rem;
-  font-family: "Arvo", cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #5ada04;
-  text-shadow: 3px 0 #dbedf3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+    outline: none;
+    border: 10px solid #404b69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #5ada04;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
 }
 
 body .set .w {
-  background-image: url("images/tom1.png");
+    background-image: url('images/tom1.png');
 }
 
 body .set .a {
-  background-image: url("images/tom2.png");
+    background-image: url('images/tom2.png');
 }
 
 body .set .s {
-  background-image: url("images/tom3.png");
+    background-image: url('images/tom3.png');
 }
 
 body .set .d {
-  background-image: url("images/tom4.png");
+    background-image: url('images/tom4.png');
 }
 
 body .set .j {
-  background-image: url("images/snare.png");
+    background-image: url('images/snare.png');
 }
 
 body .set .k {
-  background-image: url("images/crash.png");
+    background-image: url('images/crash.png');
 }
 
 body .set .l {
-  background-image: url("images/kick.png");
+    background-image: url('images/kick.png');
 }
 
 body .set .game-over {
-  background-color: red;
-  opacity: 0.8;
+    background-color: red;
+    opacity: 0.8;
 }
 
 body .set .pressed {
-  -webkit-box-shadow: 0 3px 4px 0 #dbedf3;
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
+    -webkit-box-shadow: 0 3px 4px 0 #dbedf3;
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
 }
 
 body .set .red {
-  color: red;
+    color: red;
 }
 
 body footer {
-  color: #dbedf3;
-  font-family: sans-serif;
+    color: #dbedf3;
+    font-family: sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
